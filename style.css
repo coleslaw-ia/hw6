@@ -1,0 +1,20 @@
+.header {
+  padding: 60px;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  background-image: linear-gradient(to right top, #91c4f2, #b7c0ee, #d2bde3, #e2bed5, #e8c2ca);
+  color: white;
+  font-size: 60px;
+}
+.left-column {
+    float: left;
+    width: 200px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
